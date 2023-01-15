@@ -1,0 +1,46 @@
+.social_icons_list_footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.social_icons_footer {
+    width: 44px;
+    height: 44px;
+}
+
+.social_icons_link_footer {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+            background-color: #2196F3;
+            transition-duration: 250ms;
+        }
+}
+
+.footer-icons {
+    fill: #ECECEC;
+    width: 20px;
+    height: 20px;
+}
+
+#flink {
+    width: 10px;
+    height: 10px;
+}
+
+// .social_icons_link_footer:hover {
+//     background-color: #2196F3;
+//     transition-duration: 250ms;
+// }
+
+.social_icons_link_test:hover .bi-instagram {
+    fill: #ececec;
+    transition-duration: 250ms;
+}

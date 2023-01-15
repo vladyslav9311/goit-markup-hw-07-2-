@@ -1,0 +1,53 @@
+.footer-rassylka {
+    display: block;
+    padding-left: 90px;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+.footer-input-btn {
+    display: flex;
+    padding-top: 20px;
+    gap: 12px;
+
+}
+
+.input-footer {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    padding-left: 16px;
+}
+
+#text-rassylka {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button-subscribe {
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+#text-subscribe {
+    color: #ECECEC;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}

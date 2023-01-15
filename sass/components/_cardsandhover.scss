@@ -1,0 +1,70 @@
+.cards_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.cards {
+    padding-top: 30px;
+    width: 370px;
+    height: 404px;
+    /* position: relative; */
+}
+
+.cards:hover .hover_text {
+    transform: translateY(0);
+    transition-duration: 250ms;
+}
+
+.hover_text {
+    position: absolute;
+    top: 0;
+    margin: 0 0 0 0;
+    background-color: #2196F3;
+    opacity: 90%;
+    color: #FFFFFF;
+    padding: 20px 60px;
+    height: 88%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    transform: translateY(100%);
+    transition: 250ms, trasform;
+
+}
+
+.cars_top_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.pcards_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding-left: 20px;
+
+}
+
+.pcards_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    // color: #757575;
+    margin-top: -15px;
+    padding-left: 20px;
+}
+
+.ca {
+    padding: 20px 20px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}

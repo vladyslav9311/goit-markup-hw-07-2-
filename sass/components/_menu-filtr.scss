@@ -1,0 +1,36 @@
+.menu-filtr {
+    display: flex;
+    justify-content: center;
+}
+
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    padding: 6px 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #F5F4FA;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border-color: transparent;
+    .menu-filtr &:hover {
+            background-color: #2196F3;
+            color: #F5F4FA;
+            transition-duration: 250ms;
+        }
+
+}
+
+.menu-filtr li:nth-child(n+1) {
+    padding-left: 10px;
+}
+
+// .menu-filtr .link:hover {
+//     background-color: #2196F3;
+//     color: #F5F4FA;
+//     transition-duration: 250ms;
+// }

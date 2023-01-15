@@ -1,0 +1,62 @@
+.footer {
+    box-sizing: border-box;
+    border: 0px;
+    height: 252px;
+    background-color: #2F303A;
+    display: flex;
+}
+
+.spisok-footer {
+    display: flex;
+}
+
+#adres {
+    margin-left: 215px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.footerbox_txt {
+    margin-left: 215px;
+    font-weight: 400;
+    line-height: 9px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+    padding-top: 9px;
+}
+
+.footer_div {
+    padding-top: 70px;
+}
+
+.footer_social {
+    margin-left: 70px;
+    padding-top: 72px;
+    width: 206px;
+    height: 80px;
+}
+
+.footer_link_text {
+    font-weight: 700;
+    font-style: Bold;
+    Font-size: 14px;
+    Line-height: 16px;
+    Line-height: 100%;
+    Vertical-align: Top;
+    Letter-spacing: 3%;
+    color: #FFFFFF;
+}
+
+.footer_links {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.col {
+    fill: #000;
+}

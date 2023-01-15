@@ -1,0 +1,38 @@
+.clients_co {
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+    margin-bottom: 94px;
+    justify-content: center;
+}
+
+.clients_logo {
+    box-sizing: border-box;
+    width: 170px;
+    height: 92px;
+    left: 815px;
+    top: 2493px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    &:hover {
+            border-color: #2196F3;
+            transition-duration: 250ms;
+        }
+}
+
+.logo_svg {
+    fill: #AFB1B8;
+    &:hover {
+            fill: #2196F3;
+            transition-duration: 250ms;
+        }
+}
+
+// .clients_logo:hover {
+//     border-color: #2196F3;
+//     transition-duration: 250ms;
+// }
+
