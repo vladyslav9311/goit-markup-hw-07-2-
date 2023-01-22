@@ -1,3 +1,8 @@
+@import './components/saitcont';
+@import './components/titles';
+@import './components/sections';
+@import './components/soclistcard';
+
 @import './components/header';
 @import './components/banner';
 @import './components/perevagyimg';
@@ -9,11 +14,6 @@
 @import './components/footersoc';
 @import './components/footersend';
 @import './components/modal';
-
-@import './components/saitcont';
-@import './components/titles';
-@import './components/sections';
-@import './components/soclistcard';
 
 // =====Utilites=====
 @import './utils/vars.scss';
